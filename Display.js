@@ -1,10 +1,10 @@
 // Definindo a classe Calculadora
 class Calculadora {
-    sumar(num1, num2) {
+   somar(num1, num2) {
         return num1 + num2;
     }
 
-    restar(num1, num2) {
+    subtracao(num1, num2) {
         return num1 - num2;
     }
 
@@ -27,10 +27,10 @@ class Display {
         this.valorActual = ''; // Valor atual exibido no display
         this.valorAnterior = ''; // Valor anterior exibido no display
         this.signos = {
-            sumar: '+',
-            dividir: '%',
+           somar: '+',
+            dividir: '/',
             multiplicar: 'x',
-            restar: '-',
+            subtracao: '-',
         }
     }
 

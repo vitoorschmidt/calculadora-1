@@ -1,12 +1,12 @@
 // Definindo a classe Calculadora
 class Calculadora {
     // Método para somar dois números
-    sumar(num1, num2) {
+    somar(num1, num2) {
         return num1 + num2;
     }
 
     // Método para subtrair o segundo número do primeiro
-    restar(num1, num2) {
+   subtracao(num1, num2) {
         return num1 - num2;
     }
 
